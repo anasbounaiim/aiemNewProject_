@@ -2,7 +2,7 @@ import Program from "./Program";
 import AhdathCom from "./AhdathCom";
 import OfficeList from "./OfficeList";
 import EditorialTeam from "./editorialTeam";
-import commite from "./Commite";
+import Commite from "./Commite";
 
 
 import pfp1 from "../../../public/aiem_assets/aiemFaces/img29801.png";
