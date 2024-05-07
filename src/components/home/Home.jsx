@@ -2,7 +2,7 @@ import Program from "./Program";
 import AhdathCom from "./AhdathCom";
 import OfficeList from "./OfficeList";
 import EditorialTeam from "./editorialTeam";
-import Commite from "./commite";
+import commite from "./Commite";
 
 
 import pfp1 from "../../../public/aiem_assets/aiemFaces/img29801.png";
@@ -223,7 +223,7 @@ const Home = () => {
         </div>
       </div>
 
-      <Commite></Commite>
+      <Commite/>
 
 
       <div className="w-full flex flex-col justify-center bg-[#139bcd] py-4">

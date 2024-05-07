@@ -19,7 +19,7 @@ import Ahdathnon from "../../../public/aiem_assets/ahdathnon.png"
 
 
 
-const commite = () => {
+const Commite = () => {
   return (
     <div className=" my-2 ">
       {/* <h1 className=" text-[#139bcd] lg:mt-12 text-center pt-10 text-5xl px-2 lg:text-7xl font-custom">
@@ -213,4 +213,4 @@ Maroc
   );
 };
 
-export default commite;
+export default Commite;
