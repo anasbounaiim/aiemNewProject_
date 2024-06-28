@@ -1,5 +1,6 @@
 import Home from "./components/home/Home"
 import Team from "./components/Teams";
+import Home13 from "./components/edition13/Home13";
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import React, { useState  } from 'react';
@@ -30,6 +31,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/team" exact element={<Team/>} />
+          <Route path="/edition13" exact element={<Home13/>} />
         </Routes>
         <Footer/>
         </Router>

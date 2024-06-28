@@ -203,8 +203,6 @@ const Home = () => {
     </div>
   </div>
 </div>
-
-
       {/* PROGRAMME DE L’ATELIER */}
 
       <div className="w-full flex flex-col justify-center lg:h-[700px] p-4  bg-[#139bcd] font-custom1 text-[##139bcd] ">
