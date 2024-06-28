@@ -23,11 +23,10 @@ const Navbar = () => {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1 text-base font-custom1 font-medium">
             <li><Link to="/">Accueil</Link></li>
-            <li><Link to="/team">équipe</Link></li>
             <li className="relative">
               <button
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                className="inline-flex items-center justify-center w-full rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+                className="inline-flex items-center justify-center w-full rounded-md bg-white px-3 py-2 text-sm font-semibold text-cyan-500 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
               >
                 edition
                 <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -37,14 +36,9 @@ const Navbar = () => {
               {isDropdownOpen && (
                 <ul className="absolute right-0 mt-10 w-52 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-20">
                   <li>
-                    <Link to="/edition13" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Article 1</Link>
+                    <Link to="/edition13" className="block px-4 py-2 text-sm text-cyan-500 hover:bg-gray-100">Article 1</Link>
                   </li>
-                  <li>
-                    <Link to="/edition13" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Article 2</Link>
-                  </li>
-                  <li>
-                    <Link to="/edition13" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Article 3</Link>
-                  </li>
+             
                 </ul>
               )}
             </li>

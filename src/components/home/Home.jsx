@@ -3,7 +3,7 @@ import AhdathCom from "./AhdathCom";
 import OfficeList from "./OfficeList";
 import EditorialTeam from "./editorialTeam";
 import Commite from "./Commite";
-
+import Team from "../Teams";
 
 import pfp1 from "../../../public/aiem_assets/aiemFaces/img29801.png";
 import pfp2 from "../../../public/aiem_assets/aiemFaces/img2981.jpg";
@@ -274,6 +274,8 @@ const Home = () => {
       >
         <img src={mapsdeMA} className="w-[70%]" alt="" />
       </div>
+
+      <Team></Team>
 
     </div>
   );
